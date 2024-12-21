@@ -1,14 +1,11 @@
 
-import {Button} from "@chakra-ui/react"
+import { Button } from "./components/ui/button.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Button>
-        Hello
-      </Button>
+  <>
+      <Button>Click me</Button>
+      <Button>Click me</Button>
     </>
   )
 }
